@@ -3,13 +3,13 @@ with open('input.txt', 'r') as file:
     inp_str = file.read()
 
 # prepare variables
-a, b = map(int, inp_str.split())
-
+# a = map(int, inp_str.split())
+a = int(inp_str)
 # solution
-c = a + b
+
 
 # prepare string for output
-res = str(c)
+res = str(a)
 
 
 # write the solution to file
